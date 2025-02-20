@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    font-family: 'Raleway';
+}
+#mucluc {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: #111111;
+    padding: 0 5%;
+}
+.menu {
+    background-color: #111111;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    margin-right: 20px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.menu li:hover > a {
+    text-decoration: underline;
+    
+}
+.submenu {
+    position: absolute;
+    background: #222;
+    list-style: none;
+    display: none;
+    top: 100%;
+    left: 0%;
+    min-width: 150px;
+    padding: 0;
+    
+}
+.menu li:hover > .submenu {
+    display: block;
+    text-decoration: none;
+}
+.submenu li a {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    text-decoration: none;
+}
+.submenu li > a:hover {
+    background-color: #333;
+}
+.banner {
+    background: url('../Pictures/Banner.png') no-repeat center center;  
+    background-size: cover;  
+    color:white;
+    margin: 0;
+    padding-top: 4.5em;
+    padding-bottom: 3.5em;
+    text-align: center;
+}
+#gt {
+    text-align: center;
+    margin-top: 1em;
+    padding: 0 3.5%;
+    margin-bottom: 2em;
+}
+#gt h2 {
+    font-family:'Playfair Display';
+    font-size: 2.5rem;
+    
+}
+#gt p {
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    margin-top: -0.7em;
+}
+#header {
+    padding-top: 1em;
+    padding-left:  1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+#header h2 {
+    font-size: 2.5em;
+    font-family: 'Raleway';
+    margin-bottom: 1em;
+}
+#main {
+    margin-top:1em;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3.5%;
+    margin-bottom: 1.2em;
+}
+#main h2 {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+    margin-bottom: 1.1em;
+}
+#main h3 {
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+    margin-top: 1.2em;
+}
+#main p {
+    font-family: 'Raleway';
+    font-size: 1.1em;
+}
+#main .item {
+    text-align: justify;
+    width:60%;
+    margin: 0;
+}
+#main .item span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#main .item td {
+    margin: 0;
+    padding: 5px;
+    text-align: justify;
+}
+#main .item2 {
+    text-align: center;
+    width: 40%;
+    margin-right: 0;
+    padding: 0;
+}
+#main .item2 img {
+    width:60%;
+    margin: 0;
+}
+#list-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#list-item .item {
+    width:280px;
+    height: 310px;
+    background-color: #362f2f;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#list-item .item img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 15px;
+    width:90%;
+}
+#list-item .item .nd {
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: auto;
+    color: #FFF;
+    margin-top: 21px;
+    padding: 0 15px;
+    font-size: 1.2em;
+}
+#list-item .item button {
+    width:140px;
+    height: 33px;
+    margin-top:23px;
+    border-radius: 20px;
+    border:none;
+    outline:none;
+    color:black;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#list-item .item button:hover {
+    background-color: orange;
+}
+#Donate {
+    background-color: #111111;
+    text-align: center;
+    color: #FFF;
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+#Donate h2 {
+    font-family: 'Great Vibes';
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+#Donate p {
+    font-family: 'Raleway';
+    font-size: 1.1em;
+}
+#Donate .dnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 23%;
+}
+#Donate .dnt a button {
+    width:140px;
+    height: 33px;
+    border-radius: 20px;
+    border:none;
+    outline:none;
+    color:black;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#Donate .dnt a button:hover {
+    background-color: orange;
+}
+#Donate > a {
+    text-decoration: none;
+    color: #362f2f;
+    transition: 0.3s;
+}
+#Donate > a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
